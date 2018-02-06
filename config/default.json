@@ -1,0 +1,29 @@
+{
+  "clientId": "386201447676772352",
+  "servers": {
+    "websocket": {
+      "enabled": false,
+      "port": 17401
+    },
+    "express": {
+      "enabled": true,
+      "port": 17402
+    },
+    "default": {
+      "enabled": true,
+      "port": 17400
+    }
+  },
+  "integrations": {
+    "csgo": {
+      "enabled": true,
+      "esea": true
+    },
+    "idle": {
+      "enabled": false
+    },
+    "default": {
+      "enabled": false
+    }
+  }
+}
